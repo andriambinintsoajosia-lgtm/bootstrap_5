@@ -1,0 +1,90 @@
+body{
+    background-color: rgba(0, 0, 0, 0.822);
+}
+h1{
+    text-align: center;
+}
+.onglet{
+    text-align: center;
+    padding: 30px;
+    
+}
+.onglet strong{
+    display:flex ;
+    flex-wrap: wrap;
+    justify-content: space-evenly   ;
+}
+.onglet strong a{
+    color: rgb(8, 80, 8);
+    font-size: 20px;
+    text-decoration: none;
+    
+    
+}
+section h2{
+    margin-left: 400px;
+    color: white;
+    font-size:  50px;
+}
+section h3{
+    margin-left: 450px;
+    color: rgb(8, 80, 8);
+    font-size: 25px;
+}
+section .a{
+    background-color: rgb(51, 51, 51);
+    border-radius: 5px;
+}
+.container h4{
+    border-bottom: 2px solid;
+    padding-bottom: 10px;
+    font-size: 25px;
+    
+}
+.container .row .col-lg-6{
+    border: 2px solid rgb(8, 80, 8);
+    width: 400px;
+    height: 500px;
+}
+
+.container .row .col-lg-3 i{
+    margin-left: 20px;
+}
+@media screen and (max-width:768px) {
+
+}
+footer .p1{
+    
+    text-align: center;
+}
+footer .p2{
+    margin-left: 400px;
+    font-size: 50px;
+    margin-top: 5px;
+}
+footer .p3{
+    margin-left: 400px;
+    font-size: 20px;
+}
+footer{
+    background: no-repeat center / cover url(IMAGE/PRMIER.webp);
+}
+footer button{
+    margin-left: 600px ;
+}
+.p4{
+    margin-left: 300px;
+    color: white;
+}
+.p4 a{
+    text-decoration: none;
+    color: white;
+}
+.col-lg-3{
+    outline-offset: -6px; 
+    padding: 10px;
+    background-color: #5857577c;
+    margin-left: 250px;
+    color: white;
+    text-align: center;
+}
