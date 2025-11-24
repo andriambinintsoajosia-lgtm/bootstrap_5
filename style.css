@@ -41,17 +41,18 @@ section .a{
     font-size: 25px;
     
 }
+.container{
+    background-color: rgb(19, 18, 18);
+}
 .container .row .col-lg-6{
     border: 2px solid rgb(8, 80, 8);
     width: 400px;
     height: 500px;
+    color: rgb(85, 83, 83);
 }
 
 .container .row .col-lg-3 i{
     margin-left: 20px;
-}
-@media screen and (max-width:768px) {
-
 }
 footer .p1{
     
