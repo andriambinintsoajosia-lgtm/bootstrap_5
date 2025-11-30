@@ -1,0 +1,105 @@
+
+
+.market i{
+    color: brown;
+    padding-left: 700px;
+
+}
+
+body {
+    font-family: Arial;
+    color: var(--text-color);
+}
+
+.section-title {
+    color: var(--secondary-color);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.logo-text {
+    font-weight: 700;
+    color:rgb(2, 2, 77);
+    text-decoration:underline brown
+}
+
+.btn-primary:hover, .primary-btn:hover {
+    background-color: #cc6650 !important;
+    border-color: #cc6650 !important;
+}
+
+.secondary-btn {
+    color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+}
+
+.secondary-btn:hover {
+    background-color: var(--primary-color) !important;
+    color: rgb(117, 5, 5) !important;
+}
+
+
+.about-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.profile-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px; 
+}
+
+
+.services-section {
+    background-color: var(--light-bg);
+}
+
+.service-card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.service-img {
+    height: 200px;
+    object-fit: cover;
+}
+
+
+.resource-card {
+    border: none;
+}
+
+.resource-card .card-img-top {
+    border-radius: 5px;
+    height: 180px;
+    object-fit: cover;
+}
+
+
+.custom-info-card {
+    border: 1px solid #830707;
+    border-left: 5px solid var(--primary-color);
+}
+
+
+footer {
+    background-color: #8c0a0a;
+    color: white;
+}
+
+footer .logo-text {
+    color: white !important;
+    font-size: 1.5rem;
+}
+
+.social-icons a {
+    font-size: 1.5rem;
+    color: rgb(42, 13, 137) !important;
+}
+
+.social-icons a:hover {
+    color: var(--primary-color) !important;
+}
