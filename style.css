@@ -7,10 +7,7 @@ body{
 .black-bg1{
     background-color: #251f1f;
 }
-h1 img{
-    max-width: 100%;
-    height: auto;
-}
+
 .onglet strong{
     display:flex ;
     flex-wrap: wrap;
@@ -22,10 +19,6 @@ h1 img{
     font-size: 20px;
     text-decoration: none;
 }
-.green-col{
-    color: rgb(8, 80, 8);
-}
-
 .black-bg{
     background-color: rgb(51, 51, 51);
 }
@@ -75,15 +68,24 @@ footer button{
         margin-left: 100px;
     }
     footer button{
-        margin-left: 300px;
+        margin-left: 400px;
     }
     }
-@media screen and (max-width: 768px) {
+@media screen and (max-width:768px) {
     .col-lg-3{
         margin-left: 5px;
     }
     div .row{
         display: flex;
         flex-wrap: wrap;
+    }
+    p.p3.text-center {
+        font-size: 15px;
+    }
+    footer button{
+        margin-left: 320px;
+    }
+    .black-bg2.text-white.text-center{
+        margin-right: 100px;
     }
 }
